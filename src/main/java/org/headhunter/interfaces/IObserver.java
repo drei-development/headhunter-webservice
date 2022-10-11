@@ -1,5 +1,5 @@
 package org.headhunter.interfaces;
 
-public interface Observer {
+public interface IObserver {
     void update();
 }

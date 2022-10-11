@@ -1,9 +1,9 @@
 package org.headhunter.model;
 
-import org.headhunter.abstracts.Person;
+import org.headhunter.abstracts.Subject;
 import java.util.ArrayList;
 
-public class ITSpecialist extends Person {
+public class ITSpecialist extends Subject {
 
     private ArrayList<String> programmingLanguages = new ArrayList<>();
     private WorkExperience workExperience;

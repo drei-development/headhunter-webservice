@@ -1,15 +1,13 @@
 package org.headhunter;
 
-import org.headhunter.model.ITSpecialist;
-import org.headhunter.model.HeadhunterZurich;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-
+@SpringBootApplication
 public class App 
 {
-    public static void main( String[] args ) {
-        ITSpecialist Edwin = new ITSpecialist();
-        HeadhunterZurich Zurich = new HeadhunterZurich(Edwin);
 
-        Edwin.addProgrammingLanguage("Python");
+    public static void main( String[] args ) {
+        SpringApplication.run(App.class, args);
     }
 }

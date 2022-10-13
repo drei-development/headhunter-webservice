@@ -13,6 +13,10 @@ public class HeadhunterZurich extends Observer {
         super(subject);
     }
 
+    public HeadhunterZurich() {
+
+    }
+
     public void update() {
         ArrayList<String> programmingLanguages = specialist.getProgrammingLanguages();
         for(String  language: programmingLanguages) {

@@ -11,6 +11,9 @@ public abstract class Observer implements IObserver {
         this.subject = subject;
         this.subject.addObserver(this);
     }
+    public Observer() {
+
+    }
 
     public ISubject getSubject() {
         return this.subject;
